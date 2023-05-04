@@ -3,9 +3,9 @@ import NavBar from "../components/NavBar";
   rel="stylesheet"
   href="https://unpkg.com/blocks.css/dist/blocks.min.css"
 />;
-import mangoImage from "./shardar-tarikul-islam-2vq33LK8bZA-unsplash.jpg";
-import mangoImage2 from "./sam-hojati-lw8GflbJwLc-unsplash.jpg";
-import mangoImage3 from "./heather-gill-ICVexvZjuC0-unsplash.jpg";
+import mangoImage from "./images/shardar-tarikul-islam-2vq33LK8bZA-unsplash.jpg";
+import mangoImage2 from "./images/sam-hojati-lw8GflbJwLc-unsplash.jpg";
+import mangoImage3 from "./images/heather-gill-ICVexvZjuC0-unsplash.jpg";
 import ColorGradientBackground from "../components/ColorGradientBackground";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Color from "../components/ColorScreen";

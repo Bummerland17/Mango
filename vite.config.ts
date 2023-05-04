@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), image()],
   build: {
     rollupOptions: {
-      external: ['/path/to/shardar-tarikul-islam-2vq33LK8bZA-unsplash.jpg', '/path/to/sam-hojati-lw8GflbJwLc-unsplash.jpg', '/path/to/heather-gill-ICVexvZjuC0-unsplash.jpg'],
+      external: ['./src/images/shardar-tarikul-islam-2vq33LK8bZA-unsplash.jpg', './src/images/sam-hojati-lw8GflbJwLc-unsplash.jpg', './src/images/heather-gill-ICVexvZjuC0-unsplash.jpg'],
     },
   },
   server: {
