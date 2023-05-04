@@ -1,0 +1,19 @@
+.gradientBackground{
+    position: relative;
+    width:  100%;
+    height: 100vh;
+    margin: 0;
+}
+
+.gradientBackground canvas, .gradientBackground .logoMask{
+    width: 100%;
+    height: 100vh;
+}
+
+.gradientBackground .logoMask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 130px;
+    text-indent: -9999px;
+}

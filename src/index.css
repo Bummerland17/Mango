@@ -1,0 +1,5 @@
+.mango-text {
+    background: linear-gradient(to right, #eace26, #6c6c02);
+    background-clip: text;
+    color: transparent;
+  }
