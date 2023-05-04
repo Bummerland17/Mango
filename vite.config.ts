@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ['path-to-external-module'],
+      external: ['path-to-external-module', 'shardar-tarikul-islam-2vq33LK8bZA-unsplash.jpg', 'sam-hojati-lw8GflbJwLc-unsplash.jpg', 'heather-gill-ICVexvZjuC0-unsplash.jpg'],
     },
   },
 });
