@@ -1,11 +1,12 @@
-import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+import image from 'rollup-plugin-image-files';
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), image()],
   build: {
     rollupOptions: {
-      external: ['path-to-external-module', 'shardar-tarikul-islam-2vq33LK8bZA-unsplash.jpg', 'sam-hojati-lw8GflbJwLc-unsplash.jpg', 'heather-gill-ICVexvZjuC0-unsplash.jpg'],
+      external: ['path-to-external-module', '/path/to/image.jpg'],
     },
   },
   server: {
